@@ -8,7 +8,7 @@ body{
     background: #222;
 }
 .card{
-    width: 90%;
+    width: 100%;
     max-width: 470px;
     background: linear-gradient(135deg, #38ced6, #5853e0);
     color: #fff;
@@ -16,6 +16,8 @@ body{
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .search{
     width: 100%;
@@ -63,9 +65,11 @@ body{
 .details{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 25px;
+    justify-content: center;
+    padding: 10px;
     margin-top: 50px;
+    width: 100%;
+    padding: 20%;
 }
 .col{
     display: flex;
